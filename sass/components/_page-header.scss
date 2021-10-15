@@ -1,0 +1,22 @@
+.nav-section {
+  margin-left: 93px;
+}
+.site-nav {
+  display: flex;
+
+  &-item:not(:last-child) {
+    margin-right: 50px;
+  }
+  &-link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    color: $title-text-color;
+    display: block;
+    padding: 32px 0;
+    position: relative;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
