@@ -50,10 +50,15 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   background-color: $primary-white-color;
-  &:hover,
-  :focus {
+  &:hover {
     color: $primary-white-color;
     background-color: $accent-color;
+  }
+
+  &:focus {
+    color: $primary-white-color;
+    background-color: $accent-color;
+    border: none;
   }
 }
 .social-networks__icon {
