@@ -16,10 +16,7 @@
   transition-property: color border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover {
-    border: 1px solid $accent-color;
-    color: $accent-color;
-  }
+  &:hover,
   &:focus {
     border: 1px solid $accent-color;
     color: $accent-color;
