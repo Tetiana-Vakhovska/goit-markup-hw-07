@@ -231,6 +231,11 @@
   height: 70px;
 }
 
+.title-section {
+  background-color: #f5f4fa;
+  padding: 94px 0;
+}
+
 .team {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -327,7 +332,7 @@
   display: flex;
 }
 
-.client__item:not(:last-child) {
+.clientitem:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -583,6 +588,12 @@
   line-height: 1, 87;
   margin-bottom: 14px;
   padding-left: 41px;
+  color: #212121;
+}
+
+.modal-text {
+  margin-top: 140px;
+  padding-left: 41px;
 }
 
 .modal-section__item {
@@ -609,7 +620,7 @@
 }
 
 .modal-section__item:focus-within {
-  fill: #2196f3;
+  fill-fill: #2196f3;
 }
 
 .modal-section__label {
