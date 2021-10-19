@@ -1,8 +1,8 @@
 .client {
   display: flex;
-}
-.client__item:not(:last-child) {
-  margin-right: 30px;
+  &item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .client__link {
   display: flex;
