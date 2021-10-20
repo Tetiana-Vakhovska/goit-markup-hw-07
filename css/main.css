@@ -745,6 +745,12 @@
   padding-right: -35px;
 }
 
+.checkbox-section__input:checked + .checkbox {
+  background-color: #ffffff;
+  border: 1px solid #212121;
+  fill: #ffffff;
+}
+
 .checkbox {
   position: absolute;
   width: 16px;
@@ -757,10 +763,13 @@
   background-image: url(../images/icons.svg#email);
 }
 
-.checkboxsection__input:checked + .checkbox {
-  background-color: #ffffff;
+.label::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  background-color: #2196f3;
   border: 1px solid #212121;
-  fill: #ffffff;
 }
 
 .checkbox-section__icon {
