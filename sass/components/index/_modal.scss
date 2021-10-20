@@ -78,9 +78,7 @@
     fill: $accent-color;
   }
   &:focus-within {
-    fill: {
-      fill: $accent-color;
-    }
+    fill: $accent-color;
   }
 }
 
@@ -104,6 +102,13 @@
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus + .modal-section__item:hover,
+  .modal-section__item:focus {
+    border: 1px solid $accent-color;
+    border-radius: 4px;
+    fill: $accent-color;
+  }
 }
 .icon-name {
   position: absolute;
@@ -221,15 +226,5 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover {
     background-color: $button-send-color;
-  }
-}
-
-.modal-section {
- .&item:hover,
-  .&item:focus + &input:hover,
-  &input:focus + 
-    border: 1px solid $accent-color;
-    border-radius: 4px;
-    fill: $accent-color;
   }
 }
